@@ -30,11 +30,11 @@ This is the repository for my Typst tutorial on YouTube, which you can access [h
 - Syntax trees
 - Numbered examples with glosses
 
-### Part 5
+### Part 5 (coming soon)
 
 - Typesetting phonology with the Phonokit package
 
-### Part 6
+### Part 6 (coming soon)
 
 - Where to go from here?
 - Text editors
