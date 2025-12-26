@@ -1,7 +1,7 @@
-#import "@preview/arborly:0.3.2": tree // HACK: NEW
-#import "@preview/eggs:0.3.0": * // HACK: NEW
-#import abbreviations: ins, pl // HACK: NEW
-#show: eggs // HACK: NEW
+#import "@preview/arborly:0.3.2": tree
+#import "@preview/eggs:0.3.0": * 
+#import abbreviations: ins, pl
+#show: eggs
 
 
 #set heading(numbering: "1.1")
