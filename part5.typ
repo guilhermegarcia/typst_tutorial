@@ -11,7 +11,7 @@
 // page adjustments
 #set page(
   paper: "a4",
-  fill: blue.lighten(90%),
+  // fill: blue.lighten(90%),
   margin: 1in,
   header: align(center)[#smallcaps[this is my header]],
   numbering: "1 of 1",
@@ -31,7 +31,7 @@
 #set text(
   font: "Libertinus Sans",
   size: 10pt,
-  fill: blue.darken(40%),
+  // fill: blue.darken(40%),
   lang: "en",
   hyphenate: true,
 )
