@@ -36,6 +36,6 @@ This is the repository for my Typst tutorial on YouTube, which you can access [h
 
 ### Part 6
 
-- Where to go from here
+- Where to go from here?
 - Text editors
 - CLI (Terminal) and PNG outputs
