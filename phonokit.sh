@@ -6,17 +6,18 @@
 # Adjust Phonokit version and destination as needed
 phonokit() {
   local code="$1"
+  local ppi="${2:-500}"
   local timestamp=$(date +%Y%m%d_%H%M%S)
   local output="$HOME/Desktop/phonokit_output_${timestamp}.png"
   local tmp=$(mktemp /tmp/phonokit-XXXXXX.typ)
 
-  cat >"$tmp" <<EOF
+  cat > "$tmp" << EOF
 #import "@preview/phonokit:0.0.1": *
-#set page(width: auto, height: auto, margin: 0.5em)
+#set page(width: auto, height: auto, margin: 0.5em, fill: none)
 $code
 EOF
 
-  typst compile --ppi 500 "$tmp" "$output"
+  typst compile --ppi "$ppi" "$tmp" "$output"
   rm "$tmp"
 
   echo "Saved to $output"
